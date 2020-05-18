@@ -1,0 +1,83 @@
+body {
+	font-family: playfair display;
+	text-align: center;
+	background: #dddddd;
+}
+h1 {
+	color:#dddddd;
+	font-size: 50px;
+}
+
+h2 {
+	color: #e19999;
+}
+
+ol, ul {
+	text-align: left;
+}
+
+img {
+	width: 300px;
+	height : 500px;
+	object-fit: cover;
+}
+
+.img1{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+
+.cadre {
+	background: #fab7b7;
+	border: 5px solid #e19999;
+	margin: 100px;
+	padding: 30px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px #fab7b7;
+}
+
+.btn-pink {
+	background: pink;
+	padding: 15px;
+	margin: 15px;
+	border: 2px solid purple;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-pink:hover {
+	opacity: 0.8;
+}
+
+.line-transparent {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background : #e19999;
+}
+
+.line-dark {
+	background: #e19999;
+	width: 50%;
+	height: 10px;
+}
+
+.line-medium {
+	background: #f5a8a8;
+	width: 30%;
+	height: 10px;
+}
+
+.line-dark {
+	background: #fab7b7;
+	width: 20%;
+	height: 10px;
+}
+
+.recette {
+	display: flex;
+	justify-content: center;
+}
